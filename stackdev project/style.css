@@ -1,0 +1,100 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Roboto, Arial;
+}
+body{
+color: #242424;
+background-color:#f3f3f3 ;
+}
+.nav-bar{
+height: 70px;
+display: flex;
+justify-content: space-between;
+color: rgb(46, 151, 185);
+align-items: center;
+}
+.nav-icons{
+display: flex;
+justify-content: space-between;
+padding: 10px 20px;
+margin-right: 20px;
+vertical-align: center;
+}
+.btn{
+height: 30px;
+width: 90px;
+color: rgb(46, 151, 185);
+border: 3px solid rgb(46, 151, 185);
+border-radius:15px;
+font-size: 15px;
+text-transform: capitalize;
+transition: 500ms ease;
+margin-left: 5px;
+}
+.btn:hover{
+width: 100px;
+height: 40px;
+border: 3px solid rgb(2, 34, 44);
+color: rgb(77, 75, 75);
+}
+.container{
+margin-top: 90px;
+text-align: center;
+}
+.big-text{
+font-weight: bolder;
+font-size: 30px;
+margin-bottom: 10px;
+}
+.small-text{
+font-size: 18px;
+color: gray;
+margin-bottom: 90px;
+}
+.pictures{
+border-radius: 140px;
+ border: 2px solid rgb(216, 214, 214); 
+ height: 300px; 
+ width: 300px;
+ margin-bottom: 50px; 
+}
+
+.footer{
+padding: 20px;
+
+
+
+}
+.big-button{
+    height: 50px;
+    width: 200px;
+    color: rgb(46, 151, 185);
+    font-size: 15px;
+    text-transform: capitalize;
+    border: 1px solid rgb(46, 151, 185);
+    margin-left: 30px;
+    border-radius:15px ;
+    transform: 500ms  ease;
+    
+
+}
+.big-button:hover{
+height: 60px;
+width: 230px;
+color: #242424;
+border: 2px solid gray;
+}
+.nav-icon-list{
+
+    
+color: pink;
+}
+
+
+
+
+
+
+
